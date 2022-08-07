@@ -27,4 +27,16 @@ public class CashbackHackServiceTest {
         org.testng.Assert.assertEquals(remain, 1001);
 
     }
+<<<<<<< HEAD
+=======
+
+    @org.testng.annotations.Test
+    void shouldCalculateCashbackHackServiceTest1000() {
+        CashbackHackService service = new CashbackHackService();
+        int remain = service.remain(1000);
+        org.testng.Assert.assertEquals(remain, 0);
+
+    }
+
+>>>>>>> a3ad1c8 ("testng 1000")
 }
