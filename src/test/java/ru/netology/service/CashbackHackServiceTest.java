@@ -27,8 +27,6 @@ public class CashbackHackServiceTest {
         org.testng.Assert.assertEquals(remain, 1001);
 
     }
-<<<<<<< HEAD
-=======
 
     @org.testng.annotations.Test
     void shouldCalculateCashbackHackServiceTest1000() {
@@ -38,5 +36,4 @@ public class CashbackHackServiceTest {
 
     }
 
->>>>>>> a3ad1c8 ("testng 1000")
 }
